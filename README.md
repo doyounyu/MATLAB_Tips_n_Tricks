@@ -1,4 +1,4 @@
-# MATLAB_Tips_n_Tricks
+# MATLAB Tips n Tricks
 
 ## invfreqs()
 
