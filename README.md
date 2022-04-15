@@ -2,6 +2,6 @@
 
 ##invfreqs()
 
-```.m:matlab.m
+```m:matlab.m
 [b,a] = invfreqs(h,w,n,m)
 ```
