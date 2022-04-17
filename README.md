@@ -4,7 +4,7 @@
 
 주파수 응답을 바탕으로 전달함수를 구해주는 함수
 
-```m:matlab.m
+```mlx:matlab.mlx
 [num,den] = invfreqs(freqency_response,angular_velocity,num_order,den_order)
 ```
 
@@ -20,7 +20,7 @@
 
 최소제곱법을 이용한 커브피팅 함수
 
-```m:matlab.m
+```mlx:matlab.mlx
 x = lsqcurvefit(fun,x0,t,signal)
 ```
 함수의 해가 2.3sin(2.1x-3.8)라고 하자. 그런데 이 해가 Asin(bx-c) 꼴이라는 것을 알고, 그 A, b, c 값의 대략적인 값을 알 때 쓰는 함수이다.
